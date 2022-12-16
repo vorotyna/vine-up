@@ -111,3 +111,9 @@ form.button_to {
 .text-danger {
   color: #f38792 !important;
 }
+
+.logged-in-user {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}

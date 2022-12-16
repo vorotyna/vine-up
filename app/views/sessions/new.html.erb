@@ -1,9 +1,23 @@
-<h1>Login</h1>
+</br>
+<section>
+    <h1>Login</h1>
 
-<%= form_tag '/login' do %>
+    </br>
+    
+    <%= form_tag '/login' do %> 
+    
+    <div class="user-form">
+      <div>
+        Email: </br> 
+        <%= text_field_tag :email %>
+      </div>
+    </br>
+      <div>
+        Password: </br> 
+        <%=password_field_tag :password %>
+      </div>
+    </div>
 
-  Email: <%= text_field_tag :email %>
-  Password: <%= password_field_tag :password %>
-  <%= submit_tag "Submit" %>
-
-<% end %>
+    </br>
+    <%= submit_tag "Submit", class: 'btn btn-success' %> <% end %>
+</section>
