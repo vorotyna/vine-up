@@ -1,18 +1,18 @@
 require 'rails_helper'
 
 RSpec.describe User, type: :model do
-  describe 'Validations' do
-    before(:each) do
-      @user = User.create do |u|
-        u.first_name = 'First'
-        u.last_name = 'Last'
-        u.email = 'user@gmail.com'
-        u.password = 'Password'
-        u.password_confirmation = 'Password'
-      end
+  before(:each) do
+    @user = User.create do |u|
+      u.first_name = 'First'
+      u.last_name = 'Last'
+      u.email = 'user@gmail.com'
+      u.password = 'Password'
+      u.password_confirmation = 'Password'
     end
+  end
 
-    it "is avalid with all five required fields" do
+  describe 'Validations' do
+    it "is valid with all five required fields" do
       expect(@user).to be_valid
     end
 
@@ -69,7 +69,39 @@ RSpec.describe User, type: :model do
   end
 
   describe '.authenticate_with_credentials' do
-    # examples for this class method here
-  end
+    it 'is valid with the valid credentials' do
+      @user.save
+      @userLogin = User.authenticate_with_credentials('user@gmail.com', 'Password')
+      expect(@user).to_not be_nil
+    end
 
+    it 'is not valid without valid email' do
+      @user.save
+      @userLogin = User.authenticate_with_credentials('userhello@gmail.com', 'Password')
+      expect(@userLogin).to be_nil
+    end
+
+    it 'is not valid without valid password' do
+      @user.save
+      @userLogin = User.authenticate_with_credentials('user@gmail.com', 'Password123')
+      expect(@userLogin).to be_nil
+    end
+
+    it 'is valid using valid email but with extra spacing' do
+      @user.save
+      @userLogin = User.authenticate_with_credentials(' user@gmail.com ', 'Password')
+      expect(@userLogin).to_not be_nil
+    end
+
+    it 'is valid using valid email but with different case' do
+      @user.save
+      @userLogin = User.authenticate_with_credentials('UsER@gmail.com', 'Password')
+      expect(@userLogin).to_not be_nil
+    end
+
+
+
+
+
+  end
 end
