@@ -1,6 +1,6 @@
 describe('Home Page', () => {
 
-  it('can visit the home page', () => {
+  it('Can visit the home page', () => {
     cy.visit('/');
   });
 
