@@ -4,10 +4,10 @@
 
     <% flash.each do |type, msg| %>
       <div class="alert alert-info">
-        <%= msg %>
+        <li><%= msg %></li>
       </div>
     <% end %>
-    
+
     <%= form_tag '/login' do %> 
     
     <div class="user-form">
