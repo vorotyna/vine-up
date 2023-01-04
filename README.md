@@ -60,7 +60,7 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 !["Main page"](https://github.com/vorotyna/jungle-rails/blob/master/docs/logged-in-home.png?raw=true)
 
-!["Product catalogue"](https://github.com/vorotyna/jungle-rails/blob/master/docs/homepage.png?raw=true)
+!["Product catalogue"](https://github.com/vorotyna/jungle-rails/blob/master/docs/catalogue.png?raw=true)
 
 !["My Cart"](https://github.com/vorotyna/jungle-rails/blob/master/docs/my-cart.png?raw=true)
 
