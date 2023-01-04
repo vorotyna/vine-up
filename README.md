@@ -54,7 +54,7 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 !["Main page"](https://github.com/vorotyna/jungle-rails/blob/master/docs/homepage.png?raw=true)
 
-!["About"](https://github.com/vorotyna/jungle-rails/blob/master/docs/about.png?raw=true)
+!["About"](https://github.com/vorotyna/jungle-rails/blob/master/docs/about%20page.png?raw=true)
 
 ### Logged-In User
 
