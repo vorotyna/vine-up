@@ -54,17 +54,26 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 !["Main page"](https://github.com/vorotyna/jungle-rails/blob/master/docs/homepage.png?raw=true)
 
+!["About"](https://github.com/vorotyna/jungle-rails/blob/master/docs/about.png?raw=true)
+
 ### Logged-In User
 
 !["Main page"](https://github.com/vorotyna/jungle-rails/blob/master/docs/logged-in-home.png?raw=true)
+
 !["Product catalogue"](https://github.com/vorotyna/jungle-rails/blob/master/docs/homepage.png?raw=true)
+
 !["My Cart"](https://github.com/vorotyna/jungle-rails/blob/master/docs/my-cart.png?raw=true)
+
 !["Payment"](https://github.com/vorotyna/jungle-rails/blob/master/docs/pay.png?raw=true)
+
 !["Finish payment"](https://github.com/vorotyna/jungle-rails/blob/master/docs/finish-payment.png?raw=true)
 
 ### Admin Pages
 
 !["Admin Dash"](https://github.com/vorotyna/jungle-rails/blob/master/docs/admin-dash.png?raw=true)
+
 !["Admin Categories"](https://github.com/vorotyna/jungle-rails/blob/master/docs/admin-cat.png?raw=true)
+
 !["Admin Products"](https://github.com/vorotyna/jungle-rails/blob/master/docs/admin-dash.png?raw=truehttps://github.com/vorotyna/jungle-rails/blob/master/docs/admin-prod.png?raw=true)
+
 !["Admin Add New Products"](https://github.com/vorotyna/jungle-rails/blob/master/docs/admin-add-prod.png?raw=true)
