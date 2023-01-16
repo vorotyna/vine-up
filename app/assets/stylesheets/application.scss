@@ -31,7 +31,7 @@ form.button_to {
 
 .hero {
   height: 75vh;
-  background-image: url("/images/hero_header.jpg");
+  background-image: url("/images/amazon-rainforest.jpeg");
   background-color: rgba(0, 0, 0, 0.3);
   background-blend-mode: darken;
   background-size: cover;
@@ -87,6 +87,7 @@ form.button_to {
     font-style: italic;
     text-align: right;
     font-size: 1.4em;
+    padding-right: 8rem;
   }
 }
 

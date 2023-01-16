@@ -1,4 +1,4 @@
-# Jungle
+# Vine Up
 
 A mini e-commerce application that sells plants, built with Rails 6.1.
 
