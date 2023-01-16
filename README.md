@@ -52,28 +52,28 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ### Logged-Out User
 
-!["Main page"](https://github.com/vorotyna/vine-up/blob/master/docs/home.png?raw=true)
+!["Main page"](https://github.com/vorotyna/vine-up/blob/main/docs/home.png?raw=true)
 
-!["About"](https://github.com/vorotyna/vine-up/blob/master/docs/about.png?raw=true)
+!["About"](https://github.com/vorotyna/vine-up/blob/main/docs/about.png?raw=true)
 
 ### Logged-In User
 
-!["Main page"](https://github.com/vorotyna/vine-up/blob/master/docs/logged-in-home.png?raw=true)
+!["Main page"](https://github.com/vorotyna/vine-up/blob/main/docs/logged-in-home.png?raw=true)
 
-!["Product catalogue"](https://github.com/vorotyna/vine-up/blob/master/docs/catalogue.png?raw=true)
+!["Product catalogue"](https://github.com/vorotyna/vine-up/blob/main/docs/catalogue.png?raw=true)
 
-!["My Cart"](https://github.com/vorotyna/vine-up/blob/master/docs/my-cart.png?raw=true)
+!["My Cart"](https://github.com/vorotyna/vine-up/blob/main/docs/my-cart.png?raw=true)
 
-!["Payment"](https://github.com/vorotyna/vine-up/blob/master/docs/pay.png?raw=true)
+!["Payment"](https://github.com/vorotyna/vine-up/blob/main/docs/pay.png?raw=true)
 
-!["Finish payment"](https://github.com/vorotyna/vine-up/blob/master/docs/finish-payment.png?raw=true)
+!["Finish payment"](https://github.com/vorotyna/vine-up/blob/main/docs/finish-payment.png?raw=true)
 
 ### Admin Pages
 
-!["Admin Dash"](https://github.com/vorotyna/vine-up/blob/master/docs/admin-dash.png?raw=true)
+!["Admin Dash"](https://github.com/vorotyna/vine-up/blob/main/docs/admin-dash.png?raw=true)
 
-!["Admin Categories"](https://github.com/vorotyna/vine-up/blob/master/docs/admin-cat.png?raw=true)
+!["Admin Categories"](https://github.com/vorotyna/vine-up/blob/main/docs/admin-cat.png?raw=true)
 
-!["Admin Products"](https://github.com/vorotyna/vine-up/blob/master/docs/admin-prod.png?raw=true)
+!["Admin Products"](https://github.com/vorotyna/vine-up/blob/main/docs/admin-prod.png?raw=true)
 
-!["Admin Add New Products"](https://github.com/vorotyna/vine-up/blob/master/docs/admin-add-prod.png?raw=true)
+!["Admin Add New Products"](https://github.com/vorotyna/vine-up/blob/main/docs/admin-add-prod.png?raw=true)
